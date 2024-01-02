@@ -21,7 +21,7 @@ class _HomepageState extends State<Homepage> {
 
   final List<Widget> _pages = [
     Firstpage(),
-    TimeRangeContainer(),
+    Insights(),
     thirdpage(),
     fourthpage(),
     // OperatingHoursScreen(),

@@ -1,3 +1,7 @@
+// ignore_for_file: unused_import
+
+import 'package:backendapp/graphs/datamodel.dart';
+import 'package:backendapp/widgets/linechart.dart';
 import 'package:backendapp/screens/home/homepage.dart';
 import 'package:backendapp/screens/select_location.dart';
 import 'package:backendapp/screens/add_service_screens/addService.dart';
@@ -29,9 +33,10 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
-      // home: ImageUploader(),
+      // home: BusinessLineChart(yaxis: "reviews"),
       // home: SignUp(),
       home: Homepage(),
+      // home:line(),
     );
   }
 }
